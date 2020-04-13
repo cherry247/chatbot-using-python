@@ -1,5 +1,6 @@
 # chatbot-using-python
-this  is a self learning  chatbot coded in python
+this  is a self learning  chatbot coded in python the link to the video is given below:
+
 
 intruction:
 I have used colab to run this project.
