@@ -1,17 +1,19 @@
 # chatbot-using-python
-this  is a self learning  chatbot coded in python the link to the video  that i made is given below:
-https://www.youtube.com/watch?v=vGrdYhxm0p8
 
+Chatbot 1.0 is a self learning chatbot coded in python. This application allows you to find the near answer to the question asked. Chatbot1.0 will first parse through the document and after studying it. We can ask questions related to the article. It will then search for the near possible answer to the question. 
+https://www.youtube.com/watch?v=vGrd
 
-intruction:
-I have used colab to run this project.
+1.We first install the dependencies and import the essential libraries.
 
-make sure you install NLTK and newspaper3k using pip method.
+2.After this, we would write a function which could fetch text from the article URL. 
 
-import the packages.
+3.Once this is done, we will convert this article text into corpus.
 
-incase of any doubt refer the documentation
+4.We then tokenize the words, remove punctuations, and convert into lowercase.
 
-for greeting input response make sure that you type the string which is present in greeting_input list,else it would print"sorry,i don't get".
+5.After this we will build a function or a method which will convert text to vectors and apply cousin similarity on the user query and the corpus vetor.
+
+6.Using cosine similarity we will find the most similar text to the question.We can now start chatting with our chatbot using greeting words and stop the chatbot by saying “bye”
+
 
 
